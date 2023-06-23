@@ -50,10 +50,13 @@ class ClientList extends Component {
             <div>
                 <AppNavbar/>
                 <Container fluid>
+                    <h1 align='center'> Client Management Application </h1>
                     <div className="float-right">
-                        <Button color="success" tag={Link} to="/clients/new">Add Client</Button>
+                        Click on the following button to add a new client
+                        &nbsp;&nbsp;&nbsp;&nbsp; <Button color="success" tag={Link} to="/clients/new">Add Client</Button>
+                        <br/> <br/>
                     </div>
-                    <h3>Clients</h3>
+                    <h3>Client Listing </h3>
                     <Table className="mt-4">
                         <thead>
                         <tr>
