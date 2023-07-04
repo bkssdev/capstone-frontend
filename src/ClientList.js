@@ -57,7 +57,7 @@ class ClientList extends Component {
                         <br/> <br/>
                     </div>
                     <h3>Client Listing </h3>
-                    <Table className="mt-4">
+                    <Table className="mt-4" id="clientsTable">
                         <thead>
                         <tr>
                             <th width="30%">Name</th>

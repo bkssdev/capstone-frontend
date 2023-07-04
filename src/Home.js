@@ -10,7 +10,7 @@ class Home extends Component {
             <div>
                 <AppNavbar/>
                 <Container fluid>
-                    <Button color="link"><Link to="/clients">Clients</Link></Button>
+                    To access the Capstone Client Management Application <Button color="link"><Link to="/clients">Click Me! </Link></Button>
                 </Container>
             </div>
         );
