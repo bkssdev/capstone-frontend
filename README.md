@@ -42,6 +42,15 @@ If using Windows 7 operating system on your laptop/machine, you will require an 
 #### NOTE:
 
 If application did not start up via browser after executing `npm start`,
+
+If using the got the following error on macOs
+
+   `Error: error:0308010C:digital envelope routines::unsupported`
+
+Then execute the following on the command line:
+
+   `export NODE_OPTIONS=--openssl-legacy-provider`
+
 You may need to execute the following steps, but these steps will be displayed on the CMD console, if its applicable
 
 Fix the dependency tree, try following the steps below in the exact order:
