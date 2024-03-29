@@ -43,7 +43,7 @@ If using Windows 7 operating system on your laptop/machine, you will require an 
 
 If application did not start up via browser after executing `npm start`,
 
-If using the got the following error on macOs
+If using the got the following error on macOs or any OS
 
    `Error: error:0308010C:digital envelope routines::unsupported`
 
